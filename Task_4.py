@@ -1,5 +1,4 @@
-user_input = int(input("Enter a Number: "))
-if user_input%2 == 0:
-    print(f"{user_input} is even number.")
-else:
-    print(f"{user_input} is odd number.")
+count = 0
+for i in range(1,51):
+    count += i
+print("final sum is ",count)
